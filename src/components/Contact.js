@@ -64,7 +64,10 @@ const Contact= () => {
 
         
 
-        <div>
+        <div className="flex flex-col items-center  h-screen bg-cover bg-center bg-blue-950">
+            <section className="bg-white mt-8 border-4 border-red-900">
+            <div className="py-8 lg-py-16 px-20 mx-auto max-w-screen-md ">
+       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Us</h2>
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id='form-input-control-email'
@@ -76,8 +79,18 @@ const Contact= () => {
             icon='mail'
             iconPosition='left'
           />
+           <Form.Field
+            id='form-input-control-phone'
+            control={Input}
+            label='Phone Number'
+            name='user_phone'
+            placeholder='(XXX)XXX-XXXX'
+            required
+            icon='phone'
+            iconPosition='left'
+          />
           <Form.Field
-            id='form-input-control-last-name'
+            id='form-input-control-name'
             control={Input}
             label='Name'
             name='from_name'
@@ -89,13 +102,17 @@ const Contact= () => {
           <Form.Field
             id='form-textarea-control-opinion'
             control={TextArea}
-            label='Additional Info'
+            label=''
             name='message'
             placeholder='Additional Info Here...'
             required
           />
-          <Button type='submit'>Submit</Button>
+          <Button type='submit' color= 'blue'>Submit</Button>
         </Form>
+        
+        </div>
+        </section>
+        
       </div>
     );
 }

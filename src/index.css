@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 .Contact {
@@ -10,7 +13,20 @@
   }
   
   Form {
-    border: 1px solid lightgray;
+    border: 4px solid black;
     border-radius: 10px;
     padding: 20px;
   }
+
+  ul {
+    list-style: inside;
+  }
+
+  hr {
+    clear:both;
+    width: 100%;               
+    background-color:#cfb405;
+    height: 3px;
+  }
+
+ 
