@@ -106,7 +106,7 @@ const Home = () => {
                 <li>Thomas Cisco (KK's Corner)</li>
                 <li>Jason Reeves (Mary Jean Thigpen)</li>
             </ul>
-            <p>and many others.</p>
+            <p>and many others. In 2007 he was elected as the 14th Judicial Court Judge and later returned to private practice in 2010, eventually becoming in-house counsel for Patriot Disaster Relief Specialists. </p>
         </div>
 
         <hr />
