@@ -1,4 +1,5 @@
 {
+  "homepage":"http://aallemond.github.io/bryant-firm-site",
   "name": "react-website-bryant-firm",
   "version": "0.1.0",
   "private": true,
@@ -20,12 +21,12 @@
     "semantic-ui-react": "^2.1.4",
     "sweetalert2": "^11.7.22",
     "web-vitals": "^2.1.4",
-    "webpack": "^5.88.1",
-    "homepage":"http://aallemond.github.io/bryant-firm-site"
+    "webpack": "^5.88.1"
+    
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm-run-build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
