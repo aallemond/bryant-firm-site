@@ -6,6 +6,13 @@ const Header = () => {
         <div className="container mx-auto">
           <h1 className="text-2xl underline text-slate-200 font-cinzel ">BRYANT LAW FIRM</h1>
         </div>
+
+        <div className='flex flex-col items-center mx-5 font-cinzel text-xs text-white'>
+            <p>(337)302-3192</p>
+            <p>726 Lionel Lane</p>
+            <p>Lake Charles, LA 70605</p>
+        </div>
+
       </header>
     );
 }

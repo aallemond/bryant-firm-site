@@ -41,6 +41,8 @@ const Home = () => {
         <p>The Bryant Law Firm is a Limited Practice specializing in Criminal Defense and Personal Injury Law.</p>
         </div>
 
+        
+
 {/* Main Image */}
         <div className=" min-h-screen  bg-blue-950 bg-cover">
         <section className='flex flex-col items-center'>
