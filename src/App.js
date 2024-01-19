@@ -1,6 +1,6 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
+// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Home from './components/Home';
 // import Navbar from './components/Navbar';
 // import Team from './components/Team';
