@@ -1,0 +1,22 @@
+.Contact {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+Form {
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+ul {
+  list-style: inside;
+}
+
+hr {
+  clear:both;
+  width: 100%;               
+  background-color:#cfb405;
+  height: 3px;
+}
